@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange1">#A9B89663</color>
     <color name="orange2">#A3BC7D21</color>
+    <color name="yellow">#FFD53B</color>
+    <color name="dashboard_item1">#2CC2EA</color>
+    <color name="dashboard_item2">#4DE9C9</color>
+    <color name="dashboard_item3">#72A4FF</color>
+    <color name="dashboard_item4">#8B72FF</color>
 </resources>

@@ -3,14 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/drawable/bg_gray_corner_10.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/drawable/bg_white_corner_16.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/drawable/bg_yellow_corner_10.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/drawable/bg_yellow_corner_16_top_left_top_right.xml" value="0.22314814814814815" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/drawable/ic_baseline_person.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/drawable/round_border.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_camera.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_gallery.xml" value="0.264" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_join.xml" value="0.2" />
-        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_main2.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_map.xml" value="0.1736111111111111" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_mypage.xml" value="0.2" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/activity_receive.xml" value="0.1" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/dialog_popup.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/fragment_main_map.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/fragment_mypage.xml" value="0.264" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/RoadEye/app/src/main/res/layout/fragment_video.xml" value="0.1" />
