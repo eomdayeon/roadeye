@@ -10,7 +10,7 @@
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="#7AA175"
+        android:background="#6A7CFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -19,13 +19,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:text="마이페이지"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:text="회원정보"
                 android:textColor="@color/black"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -62,13 +61,21 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more"
+                android:textColor="#6A7CFF"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/appCompatImageView"
-                android:layout_width="65dp"
-                android:layout_height="51dp"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/users"
+                android:src="@drawable/profile"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.091"
@@ -96,14 +103,15 @@
                     <TextView
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
-                        android:text="이종프"
+                        android:text="김오리"
                         android:textColor="@color/black"
-                        android:textSize="20dp"
+                        android:textSize="21dp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="16dp"
                         android:text="님" />
                 </LinearLayout>
 
@@ -118,12 +126,13 @@
                         android:layout_height="wrap_content"
                         android:text="ID"
                         android:textColor="#000000"
-                        android:textSize="15dp" />
+                        android:textSize="16dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="dltnrud25" />
+                        android:text="ori1223"
+                        android:textSize="15dp" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -141,20 +150,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
-                app:cardBackgroundColor="#EDC07F"
+                app:cardBackgroundColor="@color/dashboard_item1"
                 app:cardCornerRadius="10dp">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    android:src="@drawable/car"
+                    android:src="@drawable/carr"
                     app:tint="@color/white"></androidx.appcompat.widget.AppCompatImageView>
 
             </com.google.android.material.card.MaterialCardView>
@@ -165,7 +175,7 @@
                 android:layout_marginTop="18dp"
                 android:layout_marginLeft="10dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="16dp"
                 android:textStyle="bold"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -174,7 +184,7 @@
                 android:layout_marginTop="18dp"
                 android:layout_marginLeft="100dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"/>
+                android:textSize="16dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -187,14 +197,14 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
-                app:cardBackgroundColor="#EDC07F"
+                app:cardBackgroundColor="@color/dashboard_item3"
                 app:cardCornerRadius="10dp">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:src="@drawable/coins"
+                    android:src="@drawable/wallet"
                     app:tint="@color/white"></androidx.appcompat.widget.AppCompatImageView>
 
             </com.google.android.material.card.MaterialCardView>
@@ -205,7 +215,7 @@
                 android:layout_marginTop="18dp"
                 android:layout_marginLeft="10dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="16dp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -215,7 +225,7 @@
                 android:layout_marginTop="18dp"
                 android:text="80p"
                 android:textColor="@color/black"
-                android:textSize="18dp" />
+                android:textSize="16dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -228,7 +238,7 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
-                app:cardBackgroundColor="#EDC07F"
+                app:cardBackgroundColor="@color/dashboard_item4"
                 app:cardCornerRadius="10dp">
 
                 <androidx.appcompat.widget.AppCompatImageView
@@ -246,7 +256,7 @@
                 android:layout_marginTop="18dp"
                 android:layout_marginLeft="10dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="16dp"
                 android:textStyle="bold"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -255,11 +265,191 @@
                 android:layout_marginTop="18dp"
                 android:layout_marginLeft="80dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"/>
+                android:textSize="16dp"/>
+        </LinearLayout>
+        <!--        <LinearLayout-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal">-->
+
+        <!--            <com.google.android.material.card.MaterialCardView-->
+        <!--                android:layout_width="60dp"-->
+        <!--                android:layout_height="60dp"-->
+        <!--                android:layout_marginLeft="20dp"-->
+        <!--                app:cardBackgroundColor="#23429F"-->
+        <!--                app:cardCornerRadius="10dp">-->
+
+        <!--                <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:src="@drawable/camera"-->
+        <!--                    app:tint="@color/white"></androidx.appcompat.widget.AppCompatImageView>-->
+
+        <!--            </com.google.android.material.card.MaterialCardView>-->
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="최근 전송한 영상 조회 사용자"-->
+        <!--                android:layout_marginTop="18dp"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="16dp"-->
+        <!--                android:textStyle="bold"/>-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="20dp"-->
+        <!--                android:layout_marginTop="18dp"-->
+        <!--                android:text="3명"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="16dp" />-->
+
+
+        <!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/materialCardView2"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.205">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="최근 전송한 영상 조회 사용자리스트"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.018"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="new"
+                        android:textColor="#455DDF"
+                        android:textSize="@dimen/_12ssp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/appCompatImageView2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/user"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.091"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2"
+                        app:layout_constraintVertical_bias="0.6" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/appCompatImageView2"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:text="ID"
+                                android:textColor="#000000"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="goni12"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:text="ID"
+                                android:textColor="#000000"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7prin34"
+                                android:textSize="15dp" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:text="ID"
+                                android:textColor="#000000"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="eom5599"
+                                android:textSize="15dp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
 
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
 
+</androidx.constraintlayout.widget.ConstraintLayout>

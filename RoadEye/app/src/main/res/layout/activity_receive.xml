@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceiveActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_back"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="돌아가기"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/videoView" />-->
+
+    <!--    <android.widget.Button-->
+    <!--        android:id="@+id/btn_back"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="14sp"-->
+    <!--        android:background="@drawable/bg_blue_corner_10"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        android:text="메인 지도로 돌아가기"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/videoView"/>-->
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:cardBackgroundColor="#3F51B5"
+            android:src="@drawable/main3"
+            app:cardCornerRadius="10dp"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_back"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="메인지도로 돌아가기"
+            android:background="@drawable/bg_white_corner_line_16"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

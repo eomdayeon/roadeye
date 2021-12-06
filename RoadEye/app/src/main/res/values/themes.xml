@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.RoadEye" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.RoadEye" parent="Theme.AppCompat.Light">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#EDC07F</item>
-        <item name="colorPrimaryVariant">#EDC07F</item>
+        <item name="colorPrimary">#5468F8</item>
+        <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
